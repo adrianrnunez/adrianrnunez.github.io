@@ -1,0 +1,82 @@
+#page-wrap {
+     width: 980px;
+     margin: 0 auto;
+     position: relative;
+}
+body { 
+	background: #FAFAD2;
+	font-family: Georgia;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	color: #5F9EA0;
+
+}
+
+/*title*/
+h1 {
+	font-size: 25px;
+	line-height: 150%;
+
+}
+
+/*byline*/
+h3 {
+	font-size: 12px;
+}
+
+/*picture alighment*/
+figcaption{
+	text-align:center ;
+}
+/*paragraphs*/
+p {
+	font-family: 'Times';
+	margin-left: auto;
+    margin-right: auto;
+    font-size:16px ;
+}
+
+#twitterline{
+	float:right;
+	margin-left: 20px;
+	margin-top: 0;
+}
+
+#p1 {font-size: 20px;
+	font-style: bold;
+
+}
+#blockquote{
+	font-style: italic;
+	font-style: bold;
+	font-size: 18px;
+
+}
+
+/*link styles*/
+a:link { 
+	color: #a9a389; text-decoration: none 
+}
+a:active { 
+	color: #a9a389; text-decoration: none 
+}
+a:visited { 
+	color: #a9a389; text-decoration: none 
+}
+a:hover { 
+	color: #000000; text-decoration: underline 
+}
+
+/*responsive sizing*/
+@media screen and (max-width: 1000px) 
+{
+	#twitterline{
+		display: block;
+		float: none;
+	}
+	.main{
+		width: 100%;
+		float: none;
+	}
+}
